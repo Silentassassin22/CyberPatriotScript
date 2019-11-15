@@ -1,4 +1,5 @@
 @echo off
+echo Loading
 set functions=checkFiles firewall lsp audit usrRights services winFeatures registry checkUsr misc netShare flushDNS defAccounts passwords rdp installMalwarebytes installAVG installMBAnti installMBSA installRevo installSUPER lockdown tools verifySys
 ::Get current running directory
 set path=%~dp0
